@@ -1,2 +1,1 @@
-# SNA
- Social Network Analysis Studies
+# CEI
