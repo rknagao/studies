@@ -9,7 +9,6 @@
 Generative Models tries to understand all features that results in each target, instead just finding the variables that are most differentiate the targets, which is the Discrimatory approach.
 
 
-
 #### Why should I use it?
 
 Pros:
@@ -19,6 +18,12 @@ Pros:
 Cons:
 - all features must have normal distributions;
 - lacks numerical metrics (e.g. accuracy, F2 Score);
+
+
+#### How to use it?
+
+Since the classification problem envolves conditional probability (i.e. probability of Y given a specific feature X), one crucial step is to identify what is the probability of the specific condition happens (i.e. probability of X). While in the discriminatory approach we would draw a probability exclusively from the sample, in the generative approach we would first identify the features's populational distribution, which would in turn provide a much more accurate probability.
+
 
 #### Sources
 - https://www.statlearning.com/
