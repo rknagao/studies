@@ -5,7 +5,10 @@
 **What is a Generative Model (GM)?**
 
 ~Essentially, model that use conditional probabilities (e.g. given that we know the variable X, what is the probability of output Y).~ 
+
 Generative Models tries to understand all features that results in each target, instead just finding the variables that are most differentiate the targets, which is the Discrimatory approach.
+
+
 
 **Why should I use it?**
 
