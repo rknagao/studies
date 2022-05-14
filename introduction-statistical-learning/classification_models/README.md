@@ -25,7 +25,14 @@ Cons:
 Since the classification problem envolves conditional probability (i.e. probability of Y given a specific feature X), one crucial step is to identify what is the probability of the specific condition happens (i.e. probability of X). While in the discriminatory approach we would draw a probability exclusively from the sample, in the generative approach we would first identify the features's populational distribution, which would in turn provide a much more accurate probability.
 
 
+## Notebooks
+
+#### `linear_discriminant_analysis.ipynb`
+Study on Linear Discriminant Analysis (LDA) with differente cenarios.
+
+
 #### Sources
 - https://www.statlearning.com/
 - https://towardsdatascience.com/a-generative-approach-to-classification-17a0b5876729
 - https://medium.com/data-science-in-your-pocket/generative-modeling-the-overview-e4c60a5b4873
+- https://arxiv.org/pdf/1906.02590.pdf
