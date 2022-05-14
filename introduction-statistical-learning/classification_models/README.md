@@ -27,8 +27,8 @@ Since the classification problem envolves conditional probability (i.e. probabil
 
 ## Notebooks
 
-#### `linear_discriminant_analysis.ipynb`
-Study on Linear Discriminant Analysis (LDA) with differente cenarios.
+- **`linear_discriminant_analysis.ipynb`**: study on Linear Discriminant Analysis (LDA) with different cenarios.
+
 
 
 #### Sources
