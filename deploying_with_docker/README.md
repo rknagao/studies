@@ -1,10 +1,8 @@
-# Creating a simple project in a virtual environment and deploying with Docker
+# Creating a simple project in a virtual environment and deploying it with Docker
 
 ## Virtual Environment
 
-Before exploring Docker, let's prepare the setup.
-
-The first step is to create a virtual environment:
+Before exploring Docker, let's prepare the setup. The first step is to create a virtual environment:
 
     python -m venv /path/to/new/virtual/environment
 
