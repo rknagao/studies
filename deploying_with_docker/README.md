@@ -6,7 +6,7 @@ Before exploring Docker, let's prepare the setup.
 
 The first step is to create a virtual environment:
 
-    `python -m venv /path/to/new/virtual/environment`
+    python -m venv /path/to/new/virtual/environment
 
 And the second is to activate it:
 
