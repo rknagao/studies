@@ -36,3 +36,4 @@ Since the classification problem envolves conditional probability (i.e. probabil
 - https://towardsdatascience.com/a-generative-approach-to-classification-17a0b5876729
 - https://medium.com/data-science-in-your-pocket/generative-modeling-the-overview-e4c60a5b4873
 - https://arxiv.org/pdf/1906.02590.pdf
+- https://towardsdatascience.com/linear-discriminant-analysis-explained-f88be6c1e00b
