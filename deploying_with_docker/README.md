@@ -12,11 +12,7 @@ And the second is to activate it:
 
     ./path/to/new/virtual/environment/Scripts/activate.bat
 
-> obs: this code works in Windows. For more information about Linux build, check the oficial documentation: https://docs.python.org/pt-br/dev/library/venv.html
-
-In case you are facing errors during the activation, it may be needed to redefine the user execution policy in Windows:
-
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+> obs: this code works in Windows. For more information about Linux build, check the oficial documentation: https://docs.python.org/pt-br/dev/library/venv.html. In case you are facing errors during the activation, it may be needed to redefine the user execution policy in Windows: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
 
 The final step is to make sure python don't recognizes your previously installed libraries:
 
