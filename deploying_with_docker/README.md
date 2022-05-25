@@ -10,18 +10,18 @@ The first step is to create a virtual environment:
 
 And the second is to activate it:
 
-    `./path/to/new/virtual/environment/Scripts/activate.bat`
+    ./path/to/new/virtual/environment/Scripts/activate.bat
 
-obs1: this code works in Windows. For more information about Linux build, check the documentarion: https://docs.python.org/pt-br/dev/library/venv.html
+> obs: this code works in Windows. For more information about Linux build, check the oficial documentation: https://docs.python.org/pt-br/dev/library/venv.html
 
 In case you are facing errors during the activation, it may be needed to redefine the user execution policy in Windows:
 
-    `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-The final step is to make sure python don't recognizes your previouslly installed libraries:
+The final step is to make sure python don't recognizes your previously installed libraries:
 
-    `pip freeze`
+    pip freeze
 
-If it return a black or a message saying that are no libraries, you are good to go. Otherwise, it will be necessary to investigate furthermore.
+You are good to go if none returned, otherwise, keep investigating.
  
 
