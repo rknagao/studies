@@ -3,3 +3,4 @@
 *.json
 *.pdf
 *.zip
+deploying_with_docker/venvs/
