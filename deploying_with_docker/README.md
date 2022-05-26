@@ -10,9 +10,9 @@ Before exploring Docker, let's prepare the setup.
 
 **Step 2:** activate it.
 
-    ./path/to/new/virtual/environment/Scripts/activate.bat
+    ./path/to/new/virtual/environment/Scripts/activate
 
-> obs: this code works in Windows. For more information about Linux build, check the oficial documentation: https://docs.python.org/pt-br/dev/library/venv.html. In case you are facing errors during the activation, it may be needed to redefine the user execution policy in Windows: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
+> obs: this code works in Windows POwerShell. For more information about Linux build, check the oficial documentation: https://docs.python.org/pt-br/dev/library/venv.html. In case you are facing errors during the activation, it may be needed to redefine the user execution policy in Windows: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
 
 **Step 3:** activate pip.
 
@@ -22,6 +22,6 @@ Before exploring Docker, let's prepare the setup.
 
     pip freeze
 
-You are good to go if none returned, otherwise, keep investigating.
+You are good to go if none returned, otherwise, keep investigating. 
  
 
