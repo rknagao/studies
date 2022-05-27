@@ -2,7 +2,7 @@ print('Example 1: name and main')
 print('executing main.py')
 
 if __name__ == '__main__':
-    print('i am main.')
+    print('I am main.')
 
 from not_main import not_main
 not_main()

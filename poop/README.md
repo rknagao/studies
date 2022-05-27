@@ -1,6 +1,9 @@
 # Project Object-Oriented Programming
 
+### Objective
 To present the mainstream practices in object-oriented programming.
+
+### Practices
 
     if __name__ == "__main__":
         do_something()
