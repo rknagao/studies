@@ -16,7 +16,7 @@ def feature_engineering(df: pd.DataFrame):
     orig_feat_names_list = df.columns[:4].tolist()
 
     for i in orig_feat_names_list:
-        df[i + '_PERC_GROUP'] = np.select(
+        df[i + '_GROUP'] = np.select(
             [
                 df[i] <= df[i].quantile(0.25),
                 (df[i] > df[i].quantile(0.25)) & (df[i] <= df[i].quantile(0.5)),
