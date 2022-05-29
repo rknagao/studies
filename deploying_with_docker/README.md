@@ -51,4 +51,4 @@ After making sure the code works, we proceed with using docker to create a conta
     docker build . -t [choose_a_name]
 
 
-**Step 4:** run the container on Docker Desktop
+**Step 4:** run the image on Docker Desktop and you'll see the container working
