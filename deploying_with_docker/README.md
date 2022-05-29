@@ -28,9 +28,7 @@ You are good to go if none returned, otherwise, keep investigating.
 
 After making sure the code works, we proceed with using docker to create a container. It means our code will be able to be executed smoothly from OS with different configurations.
 
-**Step 1:** install docker using.
-
-    https://docs.docker.com/desktop/
+**Step 1:** install docker using https://docs.docker.com/desktop/
 
 **Step 2:** create dockerfile.
 
