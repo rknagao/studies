@@ -1,9 +1,0 @@
-FROM python3
-
-WORKDIR
-
-COPY
-
-RUN 
-
-CMD python main.py
