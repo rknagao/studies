@@ -24,4 +24,33 @@ Before exploring Docker, let's prepare the setup.
 
 You are good to go if none returned, otherwise, keep investigating. 
  
+## Docker
 
+After making sure the code works, we proceed with using docker to create a container. It means our code will be able to be executed smoothly from OS with different configurations.
+
+**Step 1:** install docker using https://docs.docker.com/desktop/
+
+**Step 2:** create dockerfile
+
+    ```
+    FROM python:3.8
+
+    WORKDIR project_deploying_with_docker
+
+    COPY  requirements.txt .
+
+    RUN pip install -r requirements.txt
+
+    COPY . .
+
+    WORKDIR src
+
+    CMD python main.py
+    ```
+
+**Step 3:** create an image of the container
+
+    docker build . -t [choose_a_name]
+
+
+**Step 4:** run the container on Docker Desktop
