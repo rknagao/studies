@@ -32,7 +32,6 @@ After making sure the code works, we proceed with using docker to create a conta
 
 **Step 2:** create dockerfile
 
-    ```
     FROM python:3.8
 
     WORKDIR project_deploying_with_docker
@@ -46,7 +45,6 @@ After making sure the code works, we proceed with using docker to create a conta
     WORKDIR src
 
     CMD python main.py
-    ```
 
 **Step 3:** create an image of the container
 
