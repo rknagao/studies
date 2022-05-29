@@ -28,9 +28,11 @@ You are good to go if none returned, otherwise, keep investigating.
 
 After making sure the code works, we proceed with using docker to create a container. It means our code will be able to be executed smoothly from OS with different configurations.
 
-**Step 1:** install docker using https://docs.docker.com/desktop/
+**Step 1:** install docker using.
 
-**Step 2:** create dockerfile
+    https://docs.docker.com/desktop/
+
+**Step 2:** create dockerfile.
 
     FROM python:3.8
 
@@ -46,9 +48,9 @@ After making sure the code works, we proceed with using docker to create a conta
 
     CMD python main.py
 
-**Step 3:** create an image of the container
+**Step 3:** create an image of the container.
 
     docker build . -t [choose_a_name]
 
 
-**Step 4:** run the image on Docker Desktop and you'll see the container working
+**Step 4:** run the image on Docker Desktop and you'll see the container working.
