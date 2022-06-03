@@ -4,14 +4,14 @@
 
 ### Q&A
 
-**What are SHAP values?**
+**What is SHAP value?**
 
-They are the average marginal effect of the feature into the final outcome.
+SHAP value is a measure of a feature impact on a prediction. Mathematical speaking, the number is the average marginal effect of the feature into the final prediction.
 
 
 **What is the difference between SHAP and Shapley values?**
 
-SHAP values are calculated in a python library and consists in an **approximation** of the original Shapley values. Since Shapley values require a lot of mathematical calculations, SHAP values allows a similar number in a simpler way. In other words, SHAP values is a more cost-efficient approach. 
+Shapley values are the real deal and SHAP values produced by the python library are just an **approximation** of the previous. The catch is: Shapley values requires a lot of mathematical calculations, and the python library SHAP allows a similar number in a simpler way. In other words, SHAP values is a more cost-efficient approach. 
 
 
 **How Shapley values are calculated?**
@@ -23,10 +23,6 @@ The algorithm require (1) the model and (2) the train data, and then it retrains
 
 Local interpretability means the impact of each variable to the predicted outcome of a specific observation. On the other hand, global interpretability represents the average effect of each feature in all predicted observations. 
 
-
-**Global interpretability is equivalent to causation?**
-
-No, because SHAP are measuring the impact of each feature into the *predicted* outcome, but not the **real** outcome. This difference is crucial, since SHAP cannot simulate different cenarios of a single observation.
 
 
 ### Sources
