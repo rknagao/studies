@@ -2,4 +2,4 @@
 
 
 Stopped at:
-https://youtu.be/MEG35RDD7RA?t=1194
+https://youtu.be/MEG35RDD7RA?t=678
