@@ -7,5 +7,4 @@
 - The catch is that the original Hoeffding's Inequality does not apply for a multiple variable model. For such, a modification is necessary, the threshold is multiplied for the number of features.
 - The problem with the adapted Hoeffding's Inequality is that the more variables in the model, the higher the threshold become.
 
-Stopped at:
-https://youtu.be/MEG35RDD7RA?t=2822
+https://youtu.be/FIbVs5GbBlQ?t=1572

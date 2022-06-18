@@ -5,3 +5,7 @@
 - Linear regression
 - Nonlinear Transformation
 
+https://www.youtube.com/watch?v=FIbVs5GbBlQ
+
+
+
