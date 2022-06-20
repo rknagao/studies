@@ -7,3 +7,5 @@
 - The catch is that the original Hoeffding's Inequality does not apply for a multiple variable model. For such, a modification is necessary, the threshold is multiplied for the number of features.
 - The problem with the adapted Hoeffding's Inequality is that the more variables in the model, the higher the threshold become.
 - An interesting question about the hypothesis appeared in the Q&A section: "they though each H was a model". This is true when facing simple models like Linear Regression, in which the set of estimators result in the hypothesis function, but not anymore we use more complexes model, like ensemble models. Since ensemble models are an aggregated of smallers models, the main model will require multiple hyphesis.
+
+Lecture: https://youtu.be/FIbVs5GbBlQ?t=1572
