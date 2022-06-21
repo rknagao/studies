@@ -12,4 +12,4 @@
 ![Theory of the Learning problem](./img/theory.PNG "teste")
 
 stopped at:
-https://youtu.be/L_0efNkdGMc?t=1174
+https://youtu.be/L_0efNkdGMc?t=3572
