@@ -3,7 +3,7 @@
 - Objective: introduce practical mathematical ways of distinguish training error and test error.
 - Revisiting Hoeffding Inequality, the in sample error and out of sample error are given by:
 <div>
-<img src="img/theory.PNG" width="800"/>
+<img src="img/hoeffding-train-test.PNG" width="800"/>
 <div>
 
 
