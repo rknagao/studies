@@ -38,12 +38,26 @@ Instead of considering the area, is possible to consider only the elements of sa
 <img src="img/m-as-2-n.PNG" width="600"/>
 <div>
 
-Each scenario above have an associated hypothesis, and it could be used as a substitute for **M** applied in Hoeffding's Inequality. Although **2^N** is still a large number, it tends to be smalled than **M** iterations used to produce the final hypothesis for any model. The maximum number of scenarios used to substitute **M** will be called the **Growth Function**.
+Each scenario (which is named as  **dichotomy** in the lecture) above have an associated hypothesis, and it could be used as a substitute for **M** applied in Hoeffding's Inequality. Although **2^N** is still a large number, it tends to be smalled than **M** iterations used to produce the final hypothesis for any model. The maximum number of scenarios used to substitute **M** will be called the **Growth Function**.
 
 
+## Better M being polynomial
+?
 
 
-### IN PROGRESS
+## Break Point
+
+**Definition:** 
+minimum sample size necessary to generate a dichotomy for a given **Growth Function**. (?)
+
+
+In practice, **Break Point** (or BP in short) will be used as a measure of the complexity of the learning process. A learning process with BP = 2 will be a simpler one dimensional problem, where a learning process with BP = 4 will be a more complex two dimensional problem. 
+(?)
+
+## Puzzle
+?
+
+### IN PROGRESS (MUST REVIEW ENTIRE LECTURE. IT IS HARD!)
 
 
 Video: https://www.youtube.com/watch?v=SEYAnnLazMU
