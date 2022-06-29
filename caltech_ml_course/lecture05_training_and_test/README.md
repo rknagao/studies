@@ -52,7 +52,7 @@ In each interaction a new hypothesis will be formulated. This new hypothesis wil
 In the cenario described, while the hypothesis change, the **dichotomy** may stay the same.
 
 **Why are we learning this:**
-contrary to the hypothesis, dichotomies are **finite**. While a problem may have infinite hypothesis (since different mathematical domains are generated every time), the dichotomy will be capped by the sample size (2^N). In depending on the set of sample, it is possible to achieve a smaller dichotomy quantity, which is even better for us.
+contrary to the hypothesis, dichotomies are **finite**. While a problem may have infinite hypothesis (since different mathematical domains are generated every time), the dichotomy will be capped by the sample size (2^N). In addition, depending on the set of sample, it is possible to achieve a smaller dichotomy quantity, which is even better for us.
 
 By definition:
 > *"The growth function counts the most dichotomies on any N points"*
