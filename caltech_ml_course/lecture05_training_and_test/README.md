@@ -8,7 +8,7 @@ Revisiting Hoeffding Inequality introduced in lecture 02, it is possible to esta
 
 
 <div>
-<img src="img/hoeffding-train-test.PNG" width="600"/>
+<img src="img/hoeffding-train-test.PNG" width="500"/>
 <div>
 
 For the training equation **M** accounts for the iterations necessary to train the model, and the catch is: in practice this number is big and the final probability becomes 1.
@@ -22,12 +22,12 @@ The next step is to rework M to better suit us.
 
 ## Finding a better **M**
 
-Theoretically, **M** being the sum of all errors is a **conservative** approach since it carries the maximum error during all iterations. It means also that a element that qualifies as a error will be accounted at every single iteration the error persists. It is not a efficient and it may invalidate needlessly a model.
+Theoretically, **M** being the sum of all errors is a **conservative** approach since it carries the maximum error during all iterations. It means also that a element that qualifies as a error will be accounted at every single iteration the error persists. It is not a efficient and it may needlessly invalidate a good hypothesis.
 
 One possible approach is to consider only the marginal error increased at each iteration. The figure below illustrate it:
 
 <div>
-<img src="img/overlapping-errors.PNG" width="600"/>
+<img src="img/overlapping-errors.PNG" width="500"/>
 <div>
 
 Suppose each iteration moves the threshold line a little bit, and both the blue and green lines represent this evolution. Yellow area represent the marginal error increase. The modifications in **M** will require that the yellow area resulted of each iteration change are equivalent.
@@ -35,10 +35,27 @@ Suppose each iteration moves the threshold line a little bit, and both the blue 
 Instead of considering the area, is possible to consider only the elements of sample and their prediction. In a binary classification problem, when given 3 elements, there are **2^N** possible scenarios:
 
 <div>
-<img src="img/m-as-2-n.PNG" width="600"/>
+<img src="img/m-as-2-n.PNG" width="500"/>
 <div>
 
-Each scenario (which is named as  **dichotomy** in the lecture) above have an associated hypothesis, and it could be used as a substitute for **M** applied in Hoeffding's Inequality. Although **2^N** is still a large number, it tends to be smalled than **M** iterations used to produce the final hypothesis for any model. The maximum number of scenarios used to substitute **M** will be called the **Growth Function**.
+Each scenario above have an associated hypothesis, and it could be used as a substitute for **M** applied in Hoeffding's Inequality. Although **2^N** is still a large number, it tends to be smalled than **M** iterations used to produce the final hypothesis for any model. The maximum number of scenarios used to substitute **M** will be called the **Growth Function**.
+
+
+## Dichotomy
+
+In each interaction a new hypothesis will be formulated. This new hypothesis will define the mathematical domain in which a new point will be classified accordingly. Suppose in a given hypothesis just a few points are classified. It is possible however that the same classification are maintained to a completely different hypothesis (image below).
+
+<div>
+<img src="img/dichotomy.PNG" width="500"/>
+<div>
+
+In the cenario described, while the hypothesis change, the **dichotomy** may stay the same.
+
+**Why are we learning this:**
+contrary to the hypothesis, dichotomies are **finite**. While a problem may have infinite hypothesis (since different mathematical domains are generated every time), the dichotomy will be capped by the sample size (2^N). In depending on the set of sample, it is possible to achieve a smaller dichotomy quantity, which is even better for us.
+
+By definition:
+> *"The growth function counts the most dichotomies on any N points"*
 
 
 ## Better M being polynomial
@@ -61,4 +78,4 @@ In practice, **Break Point** (or BP in short) will be used as a measure of the c
 
 
 Video: https://www.youtube.com/watch?v=SEYAnnLazMU
-Stopped: https://youtu.be/SEYAnnLazMU?t=2173
+Stopped: https://youtu.be/SEYAnnLazMU?t=2522
