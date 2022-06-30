@@ -57,6 +57,13 @@ contrary to the hypothesis, dichotomies are **finite**. While a problem may have
 By definition:
 > *"The growth function counts the most dichotomies on any N points"*
 
+<div>
+<img src="img/growth-function.PNG" width="500"/>
+<div>
+
+## Weakness of Growth Function
+
+The examples on the lecture illustrates that specific arrangements of samples allows to establish the maximum amount of dichotomies (i.e. to *"shatter"* the dataset). Unfortunatly is unlikely that we will face the same specific arrangements in different dichotomies.
 
 ## Better M being polynomial
 ?
@@ -65,7 +72,7 @@ By definition:
 ## Break Point
 
 **Definition:** 
-minimum sample size necessary to generate a dichotomy for a given **Growth Function**. (?)
+maxium sample size that allows less dichotomies that the **Growth Function**.
 
 
 In practice, **Break Point** (or BP in short) will be used as a measure of the complexity of the learning process. A learning process with BP = 2 will be a simpler one dimensional problem, where a learning process with BP = 4 will be a more complex two dimensional problem. 
