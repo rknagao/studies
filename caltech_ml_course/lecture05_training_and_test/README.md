@@ -65,9 +65,6 @@ By definition:
 
 The examples on the lecture illustrates that specific arrangements of samples allows to establish the maximum amount of dichotomies (i.e. to *"shatter"* the dataset). Unfortunatly is unlikely that we will face the same specific arrangements in different dichotomies.
 
-## Better M being polynomial
-?
-
 
 ## Break Point
 
@@ -76,13 +73,8 @@ maxium sample size that allows less dichotomies that the **Growth Function**.
 
 
 In practice, **Break Point** (or BP in short) will be used as a measure of the complexity of the learning process. A learning process with BP = 2 will be a simpler one dimensional problem, where a learning process with BP = 4 will be a more complex two dimensional problem. 
-(?)
 
-## Puzzle
-?
-
-### IN PROGRESS (MUST REVIEW ENTIRE LECTURE. IT IS HARD!)
+If a hypothesis have a finite break point, than a new **M** is possible. That modified **M** is now a polynommial and now the Hoeffding Inequation results in a smaller probability (**not sure why polinomial M is better though**).
 
 
 Video: https://www.youtube.com/watch?v=SEYAnnLazMU
-Stopped: https://youtu.be/SEYAnnLazMU?t=2522
