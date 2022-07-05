@@ -38,7 +38,7 @@ Instead of considering the area, is possible to consider only the elements of sa
 <img src="img/m-as-2-n.PNG" width="500"/>
 <div>
 
-Each scenario above have an associated hypothesis, and it could be used as a substitute for **M** applied in Hoeffding's Inequality. Although **2^N** is still a large number, it tends to be smalled than **M** iterations used to produce the final hypothesis for any model. The maximum number of scenarios used to substitute **M** will be called the **Growth Function**.
+Each scenario above have an associated hypothesis, and it could be used as a substitute for **M** applied in Hoeffding's Inequality. Although **2^N** is still a large number, it tends to be smalled than **M** iterations used to produce the final hypothesis for any model. What we will try to do next will be to decrease even more **2^N**.
 
 
 ## Dichotomy
@@ -52,7 +52,9 @@ In each interaction a new hypothesis will be formulated. This new hypothesis wil
 In the cenario described, while the hypothesis change, the **dichotomy** may stay the same.
 
 **Why are we learning this:**
-contrary to the hypothesis, dichotomies are **finite**. While a problem may have infinite hypothesis (since different mathematical domains are generated every time), the dichotomy will be capped by the sample size (2^N). In addition, depending on the set of sample, it is possible to achieve a smaller dichotomy quantity, which is even better for us.
+contrary to the hypothesis, dichotomies are **finite**. While a problem may have infinite hypothesis (since different mathematical domains are generated every time), the dichotomy will be capped by the sample size (2^N). In addition, depending on the set of sample, it is possible to achieve a smaller dichotomy quantity, which is even better for us. 
+
+ **Growth Function** is a set of samples organized in a specifically layout (i.e. "shattered") that achieve the most dichotomies for a problem.
 
 By definition:
 > *"The growth function counts the most dichotomies on any N points"*
@@ -69,12 +71,20 @@ The examples on the lecture illustrates that specific arrangements of samples al
 ## Break Point
 
 **Definition:** 
-maxium sample size that allows less dichotomies that the **Growth Function**.
+number of sample that is no longer possible to achieve all possible dichotomies.
 
+<div>
+<img src="img/breakpoint.PNG" width="500"/>
+<div>
 
 In practice, **Break Point** (or BP in short) will be used as a measure of the complexity of the learning process. A learning process with BP = 2 will be a simpler one dimensional problem, where a learning process with BP = 4 will be a more complex two dimensional problem. 
 
 If a hypothesis have a finite break point, than a new **M** is possible. That modified **M** is now a polynommial and now the Hoeffding Inequation results in a smaller probability (**not sure why polinomial M is better though**).
 
+## Conclusion
+
+<div>
+<img src="img/in-a-nutshell.PNG" width="500"/>
+<div>
 
 Video: https://www.youtube.com/watch?v=SEYAnnLazMU
