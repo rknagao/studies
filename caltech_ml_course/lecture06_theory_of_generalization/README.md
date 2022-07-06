@@ -30,4 +30,4 @@ The previous puzzle is represented by B(3, 2) and it is represented in the table
 Because it allows a recursion, which means a solution applicable to smaller N. (?)
 
 
-Video: https://www.youtube.com/watch?v=6FWRijsmLtE&t=149s
+Video: https://youtu.be/6FWRijsmLtE?t=1177
