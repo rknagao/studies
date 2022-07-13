@@ -64,13 +64,13 @@ Our objective is to:
 
 ### How does Groth Function relate do overlaps
 
-The Growth Function will guarantee that all dichotomies will overlap most of the sample instead of distributing them along the population dominion. This allows us to avoid summing each error term, which would result in gigantic probabilities that the error in sample would be bigger than the threshold established.
+The Growth Function will guarantee that all dichotomies will overlap most of the sample instead of distributing them along the population dominion. This allows us to avoid summing each error term, which would result in gigantic probabilities that the error in sample would be bigger than the threshold established. The new configuration is called **VC Dimension**.
 
 <div>
 <img src="img/growth-function-application.PNG" width="500"/>
 <div>
 
-### What to do about Eout
+### What to do about **Eout**
 
 This topic illustrates why the number of hypothesis affects negatively our model. As we obtain more and more samples from the population, we get higher probability of picking a sample that differs greatly from the population, just like a sample composed exclusively by red marbles (figure below). Any machine learning model would suffer if tasked with predicting a classification based on such sample.
 

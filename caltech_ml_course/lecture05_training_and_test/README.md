@@ -54,7 +54,13 @@ In the cenario described, while the hypothesis change, the **dichotomy** may sta
 **Why are we learning this:**
 contrary to the hypothesis, dichotomies are **finite**. While a problem may have infinite hypothesis (since different mathematical domains are generated every time), the dichotomy will be capped by the sample size (2^N). In addition, depending on the set of sample, it is possible to achieve a smaller dichotomy quantity, which is even better for us. 
 
- **Growth Function** is a set of samples organized in a specifically layout (i.e. "shattered") that achieve the most dichotomies for a problem.
+```
+(Extra) To shatter a dataset:
+
+Imagine you have a mirror and you hit it with a hammer, shattering it. The result would be a lot of different kinds of fragments all over the floor. Now continue imagining you have infinite mirrors and each time it will be hit by a different kind of hammer. Eventually, we would get all possible sizes and shapes of glass.
+
+The idea of shattering a dataset follows the same rational: to apply functions from a family function (e.g. all possible lines) to obtain all possible configuration of labels. By affirming we have a shattered dataset, we guarantee that the dataset are capable of being labbeled correctly by a function family.   
+```
 
 By definition:
 > *"The growth function counts the most dichotomies on any N points"*
@@ -88,3 +94,6 @@ If a hypothesis have a finite break point, than a new **M** is possible. That mo
 <div>
 
 Video: https://www.youtube.com/watch?v=SEYAnnLazMU
+
+Aditional biography:
+- https://svivek.com/teaching/lectures/slides/colt/vc-dimensions.pdf
