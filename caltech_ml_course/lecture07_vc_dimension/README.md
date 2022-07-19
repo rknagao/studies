@@ -15,4 +15,12 @@ VC dimensions will be a number based on a specific hypothesis set.
 
 ## Interpreting the VC dimension
 
+<<<<<<< Updated upstream
 ## Generalization bounds
+=======
+## Generalization bounds
+
+
+Video: https://www.youtube.com/watch?v=Dc0sr0kdBVI&t=2897s
+stopped at: https://youtu.be/Dc0sr0kdBVI?t=969
+>>>>>>> Stashed changes
