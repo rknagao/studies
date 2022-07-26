@@ -39,9 +39,16 @@ The proof is complex, and the train thought is:
 - Pick a set of $N = d + 1$ shattered points
 
 ## Interpreting the VC dimension
+1. Understand VC dimension
+2. How do I uset it?
+
 
 ## Generalization bounds
 
 
 Video: https://www.youtube.com/watch?v=Dc0sr0kdBVI&t=2897s
 stopped at: https://youtu.be/Dc0sr0kdBVI?t=969
+
+
+## Aditional biography
+- Article about VC Dimension: https://towardsdatascience.com/measuring-the-power-of-a-classifier-c765a7446c1c
