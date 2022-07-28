@@ -29,9 +29,31 @@ all the guarantees above are based on the probability of the sample sharing the 
 
 ## VC Dimension of Perceptrons
 
+For perceptrons $d_{vc} = dimension + 1$
+
 ## Interpreting the VC dimension
+1. Understanding VC dimension
+2. How do I use it?
+
+$d_{vc}$ is the number of ~~parameters~~ degree of freedom.
+
+> *What is a parameter?* Parameters are features used in the problem.
+
+Parameters can be associated to the concept of degree of freedom, since in practice, parameters are instruments we can use to achieve different dichotomies.
+ 
+(not sure?)
+<div>
+<img src="img/dvc-degree-freedom.PNG" width="600"/>
+<div>
+
+There is a catch: it is possible to have redundant parameters, which means a lot of parameters that does not contribute to achieving different dichotomies. An example is a long line of perceptrons line up, one estimating the previous result and feeding it to the next model. In practice, only the first perceptron really dictates the dichotomies achieved, and the rest follows along with purely mechanical transformations. For cases like these, it is preferable to use the concept of **degrees of freedom**.
 
 ## Generalization bounds
 
 
 Video: https://www.youtube.com/watch?v=Dc0sr0kdBVI&t=2897s
+stopped at: https://youtu.be/Dc0sr0kdBVI?t=2683
+
+
+## Aditional biography
+- Article about VC Dimension: https://towardsdatascience.com/measuring-the-power-of-a-classifier-c765a7446c1c
